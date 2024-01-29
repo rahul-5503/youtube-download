@@ -1,0 +1,80 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.head{
+ margin-left: 20%;
+ margin-right: 20%;
+}
+h1 {
+  text-align: center;
+  color: #333;
+  padding: 20px 0;
+}
+
+.form-item {
+  text-align: center;
+  margin: 20px;
+}
+
+form input {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input[type='button'] {
+  background-color: cornflowerblue;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  width:100px
+}
+form input[name='urli'] {
+  background-color: #ececec; /* Choose your preferred background color */
+  width: 80%; /* Set a fixed width for the text field */
+}
+
+h1 {
+  text-align: center;
+  color: black; /* Set text color */
+  background-color: #3498db; /* Set background color to blue */
+  padding: 20px 0;
+}
+.video-container {
+  text-align: center;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px; /* Rounded corners */
+  padding: 10px;
+}
+
+video {
+  max-width: 100%; /* Make the video responsive */
+  height: auto;
+  margin-top: 10px;
+}
+
+/* Add more styles as needed */
+@media only screen and (max-width: 767px) {
+  .head {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
