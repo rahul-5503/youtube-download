@@ -55,7 +55,7 @@ export default function App() {
           
         </div>
         <footer>
-           &copy; 2022 ytstream
+           &copy; 2022 ytstream and Rahul
         </footer>  
         </div>
   )
